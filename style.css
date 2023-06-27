@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: whitesmoke;
+    transition: 0.5 all;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.input_feild{
+    margin: 100px;
+    padding:15px 30px 15px 30px ;
+    background-color: white;
+    font-size: 21px;
+    border-radius: 5px;
+    box-shadow: 0 0 20px rgb(225, 225, 255);
+}
+
+.head{
+    background-color: white;
+    padding: 5px 10px 5px 10px;
+    border-radius: 5px;
+    font-size: 30px;
+    box-shadow: 0 0 20px rgb(225, 225, 255);
+}
+
+input{
+    padding: 5px 10px 5px 10px;
+    background-color: white;
+    box-shadow: 0 0 20px rgb(225, 225, 255);
+    border-radius: 5px;
+    border: 1px solid whitesmoke;
+    /* border-color: black; */
+}
+
+.result{
+    padding: 15px 30px 15px 30px;
+    border: 1px solid whitesmoke;
+    box-shadow: 0 0 20px rgb(225, 225, 255);
+    background-color: white;
+    border-radius: 5px;
+    font-size: 18px;
+}
+.bt{
+    text-align: center;
+}
+button{
+    padding: 5px 20px 5px 20px;
+    border: 1px solid white;
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: 0 0 20px rgb(225, 225, 255);
+    cursor: pointer;
+}
+button:active{
+    padding: 5px 10px 5px 10px;
+}
